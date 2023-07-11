@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cerdocapitalista.banco.RunCucumberTest" time="0.62" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber/target/test-classes:/Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber/target/classes:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-java/7.12.1/cucumber-java-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-core/7.12.1/cucumber-core-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-gherkin/7.12.1/cucumber-gherkin-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.12.1/cucumber-gherkin-messages-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/datatable/7.12.1/datatable-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-plugin/7.12.1/cucumber-plugin-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/docstring/7.12.1/docstring-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/html-formatter/20.3.1/html-formatter-20.3.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/nenenney.chuy/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.12.1/cucumber-junit-platform-engine-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-suite/1.9.3/junit-platform-suite-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.3/junit-platform-suite-api-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.3/junit-platform-suite-engine-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.3/junit-platform-suite-commons-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Monterrey"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber/target/surefire/surefirebooter-20230710224043323_3.jar /Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber/target/surefire 2023-07-10T22-40-40_440-jvmRun1 surefire-20230710224043323_1tmp surefire_0-20230710224043323_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber/target/test-classes:/Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber/target/classes:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-java/7.12.1/cucumber-java-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-core/7.12.1/cucumber-core-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-gherkin/7.12.1/cucumber-gherkin-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.12.1/cucumber-gherkin-messages-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/datatable/7.12.1/datatable-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-plugin/7.12.1/cucumber-plugin-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/docstring/7.12.1/docstring-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/html-formatter/20.3.1/html-formatter-20.3.1.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/nenenney.chuy/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/nenenney.chuy/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.12.1/cucumber-junit-platform-engine-7.12.1.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-suite/1.9.3/junit-platform-suite-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.3/junit-platform-suite-api-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.3/junit-platform-suite-engine-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.3/junit-platform-suite-commons-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.3/junit-platform-launcher-1.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/nenenney.chuy/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/nenenney.chuy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber/target/surefire/surefirebooter-20230710224043323_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="user.name" value="nenenney.chuy"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="localRepository" value="/Users/nenenney.chuy/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/dh/z55yhc0d0m1gx30h3fmm6qrm0000gp/T/"/>
+    <property name="idea.version" value="2021.3.1"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/nenenney.chuy/Desktop/chuy/HTML PRACTICE/hellocucumber"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nenenney.chuy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Crear cuenta nueva" classname="Banco" time="0.232">
+    <system-out><![CDATA[
+Scenario: Crear cuenta nueva                                                              &amp#27;[90m# hellocucumber/banco.feature:3&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcuando cree una cuenta nueva de nombre &amp#27;[0m&amp#27;[32m&amp#27;[1m"Jesus"&amp#27;[0m&amp#27;[32m, usuario &amp#27;[0m&amp#27;[32m&amp#27;[1m"chuy"&amp#27;[0m&amp#27;[32m y contraseña &amp#27;[0m&amp#27;[32m&amp#27;[1m"1234"&amp#27;[0m &amp#27;[90m# com.cerdocapitalista.banco.StepDefinitions.cuando_cree_una_cuenta_nueva(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mdeberia poder encontrar una cuenta a nombre de &amp#27;[0m&amp#27;[32m&amp#27;[1m"chuy"&amp#27;[0m                              &amp#27;[90m# com.cerdocapitalista.banco.StepDefinitions.encontrando_la_cuenta_que_cree(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
